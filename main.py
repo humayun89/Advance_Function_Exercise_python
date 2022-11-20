@@ -41,3 +41,12 @@ def multiply(input_list):
     return result
 my_list = [1, 2, 3]
 print(multiply(my_list))
+# Go for more :'
+""" Its not solve yet """
+def multiply (input_list):
+    result=1
+    for i in input_list:
+        result *= i
+        for input_list in range(1,100):
+            return result
+print(multiply(my_list))
