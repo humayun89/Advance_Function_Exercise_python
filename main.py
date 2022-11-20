@@ -15,3 +15,10 @@ x=int(input(" Enter a number:-"))
 y=int(input(" Enter a number :- "))
 div =lambda x,y: x/y
 print(div(x,y))
+# Again:
+def mul(x,y):
+    return x*y
+print(mul(3,2))
+"""Using lambda function."""
+mul_lambda = lambda x, y : x*y
+print(mul_lambda(3, 4))
