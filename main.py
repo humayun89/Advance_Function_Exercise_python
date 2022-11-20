@@ -42,11 +42,31 @@ def multiply(input_list):
 my_list = [1, 2, 3]
 print(multiply(my_list))
 # Go for more :'
-""" Its not solve yet """
+""" Its not solve yet 
 def multiply (input_list):
     result=1
     for i in input_list:
         result *= i
         for input_list in range(1,100):
-            return result
-print(multiply(my_list))
+    return result
+print(multiply(my_list)) """
+
+# Functions args and kwargs Exercise Solution:
+def multiply_all(*args):
+    m = 1
+    for i in args:
+        m *= i
+    return m
+
+
+test_1 = (1, 4, 3, 10)
+multiply_all(test_1)
+
+test_2 = (3, 5, 15, 2)
+multiply_all(test_2)
+
+test_3 = (2, 3, 8, 4)
+multiply_all(test_3)
+print(multiply(test_1))
+print(multiply(test_2))
+print(multiply(test_3))
